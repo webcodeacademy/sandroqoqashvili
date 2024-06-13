@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signupbadi{
+    background-color: #FFDFC9;
+    background-image: url(../img/mgi.png);
+    background-repeat:no-repeat;
+    background-size: 1820px;
+    background-position-y:96px;
+}
+.navbar{
+    margin: 92px 0 0 100px; 
+}
+.nav{   
+    font-size: 20px;
+    justify-content:flex-end;
+    margin: -26px 250px 0 0;
+    gap: 82px;
+}
+.nav .home{
+    color: #D37859;
+}
+.nav a{
+    color: #000000;
+}
+
+form {
+  max-width: 400px;
+  padding: 20px;
+}
+
+
+form h2 {
+  margin-bottom: 80px;
+  font-size: 76px;
+}
+
+
+input[type="text"]{
+  width: 120%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 22px;
+  display: inline-block;
+}
+input[type="email"],
+input[type="password"] {
+  width: 150%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 22px;
+}
+.mail{
+  width: 100%;
+  margin-left: 170%;
+  margin-top: -170px;
+}
+.register{
+  width: 80%;
+  margin: 80px 18%;
+}
+.FN{
+  color: #9C897F;
+  font-size: 20px;
+}
+.EP{
+  color: #9C897F;
+  font-size: 20px;
+}
+.sign{
+  width: 200px;
+  height: 68px;
+  background-color: #CA652C;
+  color:#ffffff;
+  font-size: 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  
+}
+::placeholder{
+  color: #B4A49B;
+}
+.member-link {
+  width: 250px;
+  margin:56px 0 86px 0;
+  color: #9C897F;
+
+}
+.up{
+  color: #221e1c;
+}
